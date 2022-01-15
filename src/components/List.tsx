@@ -1,12 +1,5 @@
 import React from "react";
-interface IProps {
-    people: {
-        name: string;
-        url: string;
-        age: number;
-        note: string;
-    }[]
-}
+import { IState as IProps } from "../App";
 
 /**
  * React.FC<propsType> type tells react that it's a regular functional component. 
